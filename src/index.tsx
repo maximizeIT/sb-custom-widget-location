@@ -25,7 +25,7 @@ import pkg from '../package.json'
  */
 const factory: BlockFactory = (BaseBlockClass, _widgetApi) => {
   /**
-   *  <custom-widget-location message="world!"></custom-widget-location>
+   *  <custom-widget-location></custom-widget-location>
    */
   return class CustomWidgetLocationBlock extends BaseBlockClass implements BaseBlock {
     public constructor() {
@@ -73,7 +73,7 @@ const blockDefinition: BlockDefinition = {
     blockLevel: 'block',
     configurationSchema: configurationSchema,
     uiSchema: uiSchema,
-    label: 'Custom Widget Location'
+    label: 'Get Location'
 };
 
 /**
