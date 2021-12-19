@@ -1,4 +1,12 @@
-# maximizeIT / custom-widget-location
+# Custom Widget *Location (browser only)* for Staffbase Platform
+
+----
+
+## PROTOTYPE AND FOR DEMO PURPOSES ONLY! 🌟
+## NOT FOR PRODUCTION USE! ❌
+## NOT AVAILABLE TO CUSTOMERS! BUILD YOUR OWN 😜
+
+----
 
 ## Installation
 
@@ -23,4 +31,4 @@ $ npm install
 
 ## Building the form for configuration
 
-This project uses [react-jsonschema-form](https://rjsf-team.github.io/react-jsonschema-form/) for configuring the widget properties. For more information consult their [documentation](https://react-jsonschema-form.readthedocs.io/en/latest/) 
+This project uses [react-jsonschema-form](https://rjsf-team.github.io/react-jsonschema-form/) for configuring the widget properties. For more information consult their [documentation](https://react-jsonschema-form.readthedocs.io/en/latest/).

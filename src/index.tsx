@@ -73,7 +73,8 @@ const blockDefinition: BlockDefinition = {
     blockLevel: 'block',
     configurationSchema: configurationSchema,
     uiSchema: uiSchema,
-    label: 'Get Location'
+    label: 'DEMO: Location 🖥 ',
+    iconUrl: "https://maximizeit.github.io/sb-custom-widget-location/resources/location-icon.png",
 };
 
 /**
