@@ -32,18 +32,30 @@ export const CustomWidgetLocation = ({ props }: CustomWidgetLocationProps): Reac
 
   return (
     <div>
-      <h4 style={{ textAlign: "center" }}>Using react-geolocated to access the geolocation JavaScript API in React.</h4>
-      <article style={{ textAlign: "center" }}>
-          {/* eslint-disable-next-line no-console*/}
-          <Location onError={(error) => console.log(error)} ref={innerRef} />
-          <button
-              className="pure-button pure-button-primary"
-              onClick={getLocation}
-              type="button"
-          >
-              Get location
-          </button>
-      </article>
+      <div>
+        <h4 style={{ textAlign: "center" }}>Using react-geolocated to access the geolocation JavaScript API in React.</h4>
+        <article style={{ textAlign: "center" }}>
+            {/* eslint-disable-next-line no-console*/}
+            <Location onError={(error) => console.log(error)} ref={innerRef} />
+            <button
+                className="pure-button pure-button-primary"
+                onClick={getLocation}
+                type="button"
+            >
+                Get location
+            </button>
+        </article>
+      </div>
+      <br /><br />
+      <div data-widget-conf-grid-type="100" data-widget-type="Section" data-widget-src="internal://staffbase.content.widgets.Section">
+        <div>
+          <div data-widget-conf-type="warning" data-widget-on-card="true" data-widget-type="Infobox" data-widget-src="internal://staffbase.content.widgets.Infobox">
+            <p>PROTOTYPES AND FOR DEMO PURPOSES ONLY!</p>
+            <p>NOT FOR PRODUCTION USE!</p>
+            <p>NOT AVAILABLE TO CUSTOMERS!</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
